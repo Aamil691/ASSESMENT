@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BarChart3, Users, FileText, Home } from 'lucide-react';
-import UserForm from './components/UserForm';
-import DataTable from './components/DataTable';
-import Chart from './components/Chart';
+import UserForm from './UserForm';
+import DataTable from './DataTable';
+import Chart from './Chart';
 
 type TabType = 'form' | 'table' | 'chart';
 
@@ -82,3 +82,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
